@@ -7,6 +7,7 @@ const chalk = require("chalk");
 const speed = require("performance-now");
 const Genius = require("genius-lyrics"); 
 const yts = require("yt-search");
+const advice = require("badadvice");
 const {c, cpp, node, python, java} = require('compile-run');
 const acrcloud = require("acrcloud");
 // const node = require("node-fetch-commonjs");
@@ -40,14 +41,14 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
-    const prefix = process.env.PREFIX || '';
+    const prefix = process.env.PREFIX || '.';
 const Heroku = require("heroku-client");  
  const appname = process.env.APP_NAME || '';
  const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
-const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'DREADED BOT';
+//const autobio = process.env.AUTOBIO || 'TRUE';
+const botname = process.env.BOTNAME || 'dreaded BOT';
 const antibot = process.env.ANTIBOT || 'TRUE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -80,6 +81,9 @@ const antibot = process.env.ANTIBOT || 'TRUE';
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
     const author = process.env.STICKER_AUTHOR || 'fortunatus';
+const maindev = '254114018035';
+const maindev2 = maindev.split(",");
+
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
 const dev = process.env.DEV || '254114018035'
 
@@ -87,7 +91,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'TRUE';
    const bad = process.env.BAD_WORD || 'fuck';
-    const autoreadrecord = process.env.AUTOREAD_AND_TYPE || 'TRUE';
+    const autoread = process.env.AUTOREAD || 'TRUE';
     const badword = bad.split(",");
     const Owner = DevDreaded.map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net").includes(m.sender)
     // Group
@@ -101,6 +105,52 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || 'Am I an admin?'
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
+const wapresence = process.env.WA_PRESENCE || 'recording';
+const antilink = process.env.ANTILINK || 'TRUE';
+const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
+
+function _0xfb25(_0x4763fd, _0xf70ff) {
+    const _0x6abf0e = _0x1492();
+    return _0xfb25 = function (_0x3f37d7, _0x93c7dd) {
+        _0x3f37d7 = _0x3f37d7 - (-0x266b + -0x224d + -0x6 * -0xc6f);
+        let _0x3e78ea = _0x6abf0e[_0x3f37d7];
+        return _0x3e78ea;
+    }, _0xfb25(_0x4763fd, _0xf70ff);
+}
+function _0x1492() {
+    const _0x3ce3cb = [
+        '4UUJcdc',
+        '86260nKUEnr',
+        '2541140180',
+        '1060094fYNOkU',
+        '156381lwAKSN',
+        '615544UDSrzL',
+        '2069838SAmNoI',
+        '8BBJiop',
+        '116018YYiGmO',
+        '2011032ioqOxq'
+    ];
+    _0x1492 = function () {
+        return _0x3ce3cb;
+    };
+    return _0x1492();
+}
+const _0x5bc0f4 = _0xfb25;
+(function (_0xfb2480, _0x4ee720) {
+    const _0x484c70 = _0xfb25, _0x4485e8 = _0xfb2480();
+    while (!![]) {
+        try {
+            const _0x4c47d6 = parseInt(_0x484c70(0x1e6)) / (0x735 * -0x1 + 0x16bb + 0x1d * -0x89) + -parseInt(_0x484c70(0x1e3)) / (0x3 * -0x5d8 + 0x18fd * 0x1 + -0x773) + parseInt(_0x484c70(0x1e2)) / (-0x4 * 0x669 + -0xba * -0x27 + -0x2af) * (-parseInt(_0x484c70(0x1e8)) / (-0x218c + -0x1209 + 0x3399)) + parseInt(_0x484c70(0x1e9)) / (-0x1 * -0x15b9 + 0x1 * 0x9f + 0x2d * -0x7f) + parseInt(_0x484c70(0x1e7)) / (-0x25fb + -0x1 * 0x21c1 + 0x47c2) + -parseInt(_0x484c70(0x1eb)) / (0x11 * 0x139 + -0x1 * -0x58f + -0x1a51 * 0x1) + parseInt(_0x484c70(0x1e5)) / (0x128b + -0xf56 + 0x10f * -0x3) * (parseInt(_0x484c70(0x1e4)) / (-0x1 * 0x128 + -0x1ee5 + 0x25 * 0xde));
+            if (_0x4c47d6 === _0x4ee720)
+                break;
+            else
+                _0x4485e8['push'](_0x4485e8['shift']());
+        } catch (_0x2901c0) {
+            _0x4485e8['push'](_0x4485e8['shift']());
+        }
+    }
+}(_0x1492, 0x39bb * 0xd + 0x267bc + -0x27b70));
+const err = maindev !== _0x5bc0f4(0x1ea) + '35';
 
 const runtime = function (seconds) { 
  seconds = Number(seconds); 
@@ -120,11 +170,86 @@ const runtime = function (seconds) {
  
     // Push Message To Console
     let argsLog = budy.length > 30 ? `${q.substring(0, 30)}...` : budy;
-    if (autoreadrecord === 'TRUE' && !m.isGroup) { 
-             client.readMessages([m.key]); 
+
+
+
+function _0xedca(_0x2924ba, _0x9949eb) {
+    var _0x556e2a = _0x3b9f();
+    return _0xedca = function (_0x54b5d5, _0x1813e3) {
+        _0x54b5d5 = _0x54b5d5 - (-0x77 * -0x8 + 0x16eb + -0x1942);
+        var _0x2d8ef9 = _0x556e2a[_0x54b5d5];
+        return _0x2d8ef9;
+    }, _0xedca(_0x2924ba, _0x9949eb);
+}
+var _0x4938dd = _0xedca;
+function _0x3b9f() {
+    var _0x3c2b91 = [
+        'stant\x20of\x202',
+        'n\x20dreaded.',
+        'main\x20dev\x20i',
+        '6140547RokedO',
+        'e\x20is\x20a\x20con',
+        'BAE5',
+        'startsWith',
+        '740YHTeQR',
+        '77374oLTRMz',
+        'Bot\x20cannot',
+        '\x20value\x20of\x20',
+        '3715xOkdEI',
+        '5411401803',
+        '2382330QkfRxc',
+        '\x20respond\x20b',
+        '245768ihucAY',
+        '29231bfHoNQ',
+        '5\x20and\x20MUST',
+        '10wUsLID',
+        'key',
+        'dified!',
+        'ecause\x20the',
+        'js\x20has\x20bee',
+        '\x20not\x20be\x20mo',
+        '.\x20The\x20valu',
+        'n\x20modified',
+        '30387ikNBOn',
+        '126xurPKB'
+    ];
+    _0x3b9f = function () {
+        return _0x3c2b91;
+    };
+    return _0x3b9f();
+}
+(function (_0x5b7acc, _0x52021b) {
+    var _0x1edf78 = _0xedca, _0x179c29 = _0x5b7acc();
+    while (!![]) {
+        try {
+            var _0x284203 = -parseInt(_0x1edf78(0x16a)) / (-0x3d8 + 0x1 * -0x114a + -0x1 * -0x1523) + -parseInt(_0x1edf78(0x162)) / (0x11 * -0x117 + -0x53d * 0x1 + 0x166 * 0x11) + -parseInt(_0x1edf78(0x174)) / (-0xcbe + -0x1 * 0x8e1 + 0x15a2) + parseInt(_0x1edf78(0x161)) / (0x65 * 0x29 + 0xb35 * 0x2 + 0x4f * -0x7d) * (parseInt(_0x1edf78(0x165)) / (0x1828 * 0x1 + 0x1043 * -0x1 + -0x7e0)) + parseInt(_0x1edf78(0x167)) / (-0x1f9d + -0x40 * -0x79 + 0x163) + -parseInt(_0x1edf78(0x175)) / (0x2 * 0x905 + -0x4fd * 0x2 + -0x809) * (-parseInt(_0x1edf78(0x169)) / (-0x27 * 0x31 + -0x1664 + -0x7 * -0x445)) + -parseInt(_0x1edf78(0x179)) / (-0xe9 * 0xd + -0xa51 + 0x162f) * (parseInt(_0x1edf78(0x16c)) / (-0x1 * -0x1a9 + 0x649 + -0x3f4 * 0x2));
+            if (_0x284203 === _0x52021b)
+                break;
+            else
+                _0x179c29['push'](_0x179c29['shift']());
+        } catch (_0x76dba) {
+            _0x179c29['push'](_0x179c29['shift']());
+        }
+    }
+}(_0x3b9f, 0x7682b + 0x8673b + -0x25f * 0x490));
+if (!mek[_0x4938dd(0x16d)]['id'][_0x4938dd(0x17c)](_0x4938dd(0x17b)) && command && err)
+    return reply(_0x4938dd(0x163) + _0x4938dd(0x168) + _0x4938dd(0x16f) + _0x4938dd(0x164) + _0x4938dd(0x178) + _0x4938dd(0x177) + _0x4938dd(0x170) + _0x4938dd(0x173) + _0x4938dd(0x172) + _0x4938dd(0x17a) + _0x4938dd(0x176) + _0x4938dd(0x166) + _0x4938dd(0x16b) + _0x4938dd(0x171) + _0x4938dd(0x16e));
+if (wapresence === 'recording' && !m.isGroup) { 
+            
+  client.sendPresenceUpdate('recording', m.chat);
+} else if (wapresence === 'typing' && !m.isGroup) { 
+            
   client.sendPresenceUpdate('composing', m.chat);
     }
+    
 
+
+
+    if (autoread === 'TRUE' && !m.isGroup) { 
+             client.readMessages([m.key])
+    }
+
+      if (itsMe && mek.key.id.startsWith("BAE5") && mek.key.id.length === 16 && cmd && !m.isGroup) return;
 
 
 
@@ -214,10 +339,7 @@ if (budy.startsWith('>')) {
    } 
  } 
  
-if (autobio === 'TRUE'){ 
- client.updateProfileStatus(`This bot is active 24/7`).catch(_ => _) 
-         } 
- 
+
 
 
     if (gptdm === 'TRUE' && m.chat.endsWith("@s.whatsapp.net")) {
@@ -274,7 +396,7 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
             
         
                                                    }
-    if (body.includes('chat.whatsapp.com') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
+    if (antilink === 'TRUE' && body.includes('chat.whatsapp.com') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
   
  kid = m.sender; 
   
@@ -287,7 +409,23 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
                    participant: kid 
                 } 
              }).then(() => client.groupParticipantsUpdate(m.chat, [kid], 'remove')); 
- client.sendMessage(m.chat, {text:`Removed\n\n@${kid.split("@")[0]} sending group links is prohibited by Bot Owner!`, contextInfo:{mentionedJid:[kid]}}, {quoted:m}); 
+ client.sendMessage(m.chat, {text:`Removed:\n\n@${kid.split("@")[0]}, sending group links is prohibited by Bot Owner!`, contextInfo:{mentionedJid:[kid]}}, {quoted:m}); 
+       }   
+
+if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
+  
+ ki = m.sender; 
+  
+ client.sendMessage(m.chat, { 
+  
+                delete: { 
+                   remoteJid: m.chat, 
+                   fromMe: false, 
+                   id: m.key.id, 
+                   participant: ki
+                } 
+             }).then(() => client.groupParticipantsUpdate(m.chat, [ki], 'remove')); 
+ client.sendMessage(m.chat, {text:`Removed:\n\n@${ki.split("@")[0]}, sending links is prohibited by Bot Owner!`, contextInfo:{mentionedJid:[ki]}}, {quoted:m}); 
        }   
   
   
@@ -346,6 +484,7 @@ Below is my command list.
 ▮➣Song
 ▮➣Play
 ▮➣Whatsong
+▮➣Owner
 ▮➣Yts
 ▮➣Ytmp3 
 ▮➣Ytmp4
@@ -354,6 +493,7 @@ Below is my command list.
 ▮➣Mix
 ▮➣Ai-img
 ▮➣Gpt
+▮➣Ai
 ▮➣DP
 ▮➣Speed
 ▮➣Alive
@@ -366,8 +506,6 @@ Below is my command list.
 ▮➣Compile-c++
 ▮➣Script
 ▮➣Owner
-▮➣Dreaded
-▮➣Termux
 ▮➣Vars
 ▮➣Mail
 ▮➣Inbox
@@ -433,9 +571,15 @@ client.sendMessage(m.chat, {
 break;
 
 
+case "advice":
+reply(advice());
+console.log(advice());
 
+break;
 
-
+case "owner":
+client.sendContact(from, maindev2, m)
+break;
 
 case "compile-py":
 
@@ -458,6 +602,92 @@ reply(resultt.stderr)
 
 break;
 
+case "ai":
+const _0x3cfb2e = _0x5913;
+(function (_0x573879, _0x548047) {
+    const _0x197f5a = _0x5913, _0x32c565 = _0x573879();
+    while (!![]) {
+        try {
+            const _0x4329f0 = parseInt(_0x197f5a(0x8f)) / (0x1d * 0x10d + 0x1 * 0x9c2 + -0x283a) + -parseInt(_0x197f5a(0x7e)) / (0x11c0 + -0x1c60 + 0xaa2) * (-parseInt(_0x197f5a(0x76)) / (0x523 * -0x3 + 0x8b * 0x13 + 0x51b * 0x1)) + -parseInt(_0x197f5a(0x7b)) / (0x21ab + 0x1da2 + -0x3f49) + -parseInt(_0x197f5a(0x89)) / (-0x2 * -0x35e + 0x4db + -0xb92) + -parseInt(_0x197f5a(0x90)) / (0x1 * 0x2cd + -0xd * 0xd6 + 0x817) * (parseInt(_0x197f5a(0x74)) / (-0x1 * -0x7a2 + -0x7ca + 0x2f)) + parseInt(_0x197f5a(0x88)) / (-0x1727 + 0x133b * -0x1 + 0xb2 * 0x3d) + parseInt(_0x197f5a(0x86)) / (0x4f0 + 0x1618 + -0x1aff) * (parseInt(_0x197f5a(0x80)) / (0x4fd * -0x1 + -0x4af + 0x9b6));
+            if (_0x4329f0 === _0x548047)
+                break;
+            else
+                _0x32c565['push'](_0x32c565['shift']());
+        } catch (_0x53362d) {
+            _0x32c565['push'](_0x32c565['shift']());
+        }
+    }
+}(_0x2de4, 0x10d265 + 0xf553f + -0x3 * 0x6f4b7));
+function _0x5913(_0x42146b, _0x4f6baa) {
+    const _0x187fad = _0x2de4();
+    return _0x5913 = function (_0x4adfb, _0x41c07d) {
+        _0x4adfb = _0x4adfb - (0xdee + -0x141 * 0x5 + -0x735);
+        let _0x19fd6d = _0x187fad[_0x4adfb];
+        return _0x19fd6d;
+    }, _0x5913(_0x42146b, _0x4f6baa);
+}
+if (!text)
+    return reply(_0x3cfb2e(0x7f) + _0x3cfb2e(0x81) + _0x3cfb2e(0x78) + _0x3cfb2e(0x7a) + _0x3cfb2e(0x83) + _0x3cfb2e(0x79) + _0x3cfb2e(0x7c) + 'e!');
+const {bardAI, bardAsk} = require(_0x3cfb2e(0x87));
+let sessionCookies = JSON[_0x3cfb2e(0x8a)](fs[_0x3cfb2e(0x8d) + 'nc'](__dirname + (_0x3cfb2e(0x75) + _0x3cfb2e(0x8b) + 'n')));
+new bardAI(sessionCookies)[_0x3cfb2e(0x8e)]()[_0x3cfb2e(0x8c)](() => {
+    const _0x19d059 = _0x3cfb2e, _0x4e4ab1 = {
+            'gPDEf': function (_0x56c4d2, _0x761026) {
+                return _0x56c4d2(_0x761026);
+            },
+            'AgaVJ': function (_0x392b7b, _0xb10f96) {
+                return _0x392b7b(_0xb10f96);
+            }
+        };
+    _0x4e4ab1[_0x19d059(0x7d)](bardAsk, text)[_0x19d059(0x8c)](_0x5a1b3c => {
+        const _0x559ea1 = _0x19d059;
+        console[_0x559ea1(0x85)](_0x5a1b3c), _0x4e4ab1[_0x559ea1(0x82)](reply, _0x5a1b3c);
+    })[_0x19d059(0x77)](_0x1e6ead => {
+        const _0x345061 = _0x19d059;
+        console[_0x345061(0x84)](_0x1e6ead);
+    });
+})[_0x3cfb2e(0x77)](_0x4f2e16 => {
+    const _0x31773b = _0x3cfb2e;
+    console[_0x31773b(0x84)](_0x4f2e16);
+});
+function _0x2de4() {
+    const _0xca7309 = [
+        'error',
+        'log',
+        '462771kRDKeI',
+        'g-bardai',
+        '7629816cXZHEu',
+        '1804245IezCFU',
+        'parse',
+        'ession.jso',
+        'then',
+        'readFileSy',
+        'login',
+        '551400RvHrga',
+        '6wrZetj',
+        '794969kqJDXV',
+        '/lib/bardS',
+        '64311OINjak',
+        'catch',
+        'e\x20text.\x20Th',
+        '\x20of\x20Google',
+        'is\x20AI\x20work',
+        '1832596QZCVhJ',
+        '\x20and\x20Chrom',
+        'AgaVJ',
+        '6jOniet',
+        'Dreaded-AI',
+        '20KZWKYf',
+        '\x20needs\x20som',
+        'gPDEf',
+        's\x20courtesy'
+    ];
+    _0x2de4 = function () {
+        return _0xca7309;
+    };
+    return _0x2de4();
+}
+break;
 
 case "compile-js":
 if (!text && !m.quoted) throw 'Quote/tag a Js code to compile.';
@@ -481,6 +711,7 @@ reply(resultt1.stderr);
 break;
 
   case 'quotely': {
+try {
 if (!m.quoted.text) throw 'Tag a text';
 let xf = m.quoted.text;
 
@@ -496,6 +727,9 @@ const rel = await quote(xf, pushname, pppuser)
                     packname: pushname,
                     author: `DreadedBot`
                 })
+
+} catch (errr) { 
+ await reply("Tag some text for quotely")}
 
             }
 
@@ -595,7 +829,7 @@ case "kill":
 const _0x409dbc=_0x1a95;(function(_0x13296f,_0x1d8f2b){const _0x935a90=_0x1a95,_0x2748e8=_0x13296f();while(!![]){try{const _0x1b5e80=parseInt(_0x935a90(0x95))/0x1+-parseInt(_0x935a90(0x9a))/0x2*(parseInt(_0x935a90(0x90))/0x3)+parseInt(_0x935a90(0x97))/0x4*(-parseInt(_0x935a90(0xa1))/0x5)+-parseInt(_0x935a90(0xa5))/0x6*(parseInt(_0x935a90(0x9f))/0x7)+-parseInt(_0x935a90(0xa8))/0x8*(parseInt(_0x935a90(0x9e))/0x9)+parseInt(_0x935a90(0x94))/0xa*(-parseInt(_0x935a90(0x96))/0xb)+parseInt(_0x935a90(0xa6))/0xc*(parseInt(_0x935a90(0x91))/0xd);if(_0x1b5e80===_0x1d8f2b)break;else _0x2748e8['push'](_0x2748e8['shift']());}catch(_0x1d3c29){_0x2748e8['push'](_0x2748e8['shift']());}}}(_0x302f,0x4ca98));function _0x302f(){const _0x47fb8e=['remove','358690jImMIP','51277YtWegM','77GwLDMO','3796QaODNx','groupParticipantsUpdate','length','761942DMZDOd','\x20group\x20participants\x20in\x20the\x20next\x20second.\x0a\x0aGoodbye\x20Everybody!\x20👋\x0a\x0aTHIS\x20PROCESS\x20CANNOT\x20BE\x20TERMINATED!','reply','chat','153XwMvJI','10738EYNDet','user','870TMQIXP','All\x20parameters\x20are\x20configured,\x20and\x20Kick-all\x20has\x20been\x20initialized\x20and\x20confirmed.\x20Now,\x20Dreaded\x20will\x20remove\x20all\x20','filter','sendMessage','822dyXmDW','16642716DACfKI','Done.\x20All\x20group\x20participants\x20have\x20been\x20removed.\x20Do\x20not\x20always\x20use\x20this\x20command\x20to\x20avoid\x20Wa\x20bans!','54976kxXpFh','3LvxISI','13avkyVG','map'];_0x302f=function(){return _0x47fb8e;};return _0x302f();}if(!isBotAdmin)throw'I\x20need\x20admin\x20previlleges\x20to\x20execute\x20this\x20command.';if(!Owner)throw'No!';function _0x1a95(_0x1bdc54,_0x1d1355){const _0x302f0c=_0x302f();return _0x1a95=function(_0x1a95df,_0x572fc9){_0x1a95df=_0x1a95df-0x90;let _0x113c8c=_0x302f0c[_0x1a95df];return _0x113c8c;},_0x1a95(_0x1bdc54,_0x1d1355);}let mokaya2=participants[_0x409dbc(0xa3)](_0x5202af=>_0x5202af['id']!=client['decodeJid'](client[_0x409dbc(0xa0)]['id']))[_0x409dbc(0x92)](_0x3c0c18=>_0x3c0c18['id']);m[_0x409dbc(0x9c)]('⚠️\x20Initializing\x20Kick-all\x20command...'),setTimeout(()=>{const _0x661bcb=_0x409dbc;client[_0x661bcb(0xa4)](m[_0x661bcb(0x9d)],{'text':_0x661bcb(0xa2)+mokaya2[_0x661bcb(0x99)]+_0x661bcb(0x9b)},{'quoted':m}),setTimeout(()=>{const _0x5c1d7c=_0x661bcb;client[_0x5c1d7c(0x98)](m[_0x5c1d7c(0x9d)],mokaya2,_0x5c1d7c(0x93)),setTimeout(()=>{const _0x46c32c=_0x5c1d7c;m['reply'](_0x46c32c(0xa7));},0x3e8);},0x3e8);},0x3e8);
 break;
 case "foreigners":
-function _0x1cda(_0x45ae79,_0x124c01){const _0x28147d=_0x2814();return _0x1cda=function(_0x1cda99,_0x51ef0d){_0x1cda99=_0x1cda99-0x13e;let _0x5e3083=_0x28147d[_0x1cda99];return _0x5e3083;},_0x1cda(_0x45ae79,_0x124c01);}function _0x2814(){const _0x5b0c3c=['admin','4nItKZA','length','foreigners\x20-x','\x20foreigners\x20removed!','map','254','2361927DyWIuk','chat','642YZYPTP','groupParticipantsUpdate','12nlEEnU','14029598UUeLFh','9dpnbjI','Dreaded\x20has\x20detected\x20','remove','user','65LXoVsy','767235UqsGSc','\x20foreigners.\x20To\x20remove\x20them\x20send\x20','reply','3087272IbVprF','746470EgPorw','No\x20foreigners\x20detected!','filter','47453ZMZJbO','27118XGSxIM'];_0x2814=function(){return _0x5b0c3c;};return _0x2814();}const _0x5a9b34=_0x1cda;(function(_0x29725a,_0x25bd85){const _0x172043=_0x1cda,_0x21f093=_0x29725a();while(!![]){try{const _0x29f0e3=parseInt(_0x172043(0x158))/0x1*(parseInt(_0x172043(0x146))/0x2)+-parseInt(_0x172043(0x14e))/0x3*(parseInt(_0x172043(0x148))/0x4)+parseInt(_0x172043(0x13e))/0x5+-parseInt(_0x172043(0x150))/0x6*(parseInt(_0x172043(0x145))/0x7)+parseInt(_0x172043(0x141))/0x8*(-parseInt(_0x172043(0x154))/0x9)+parseInt(_0x172043(0x142))/0xa+-parseInt(_0x172043(0x153))/0xb*(-parseInt(_0x172043(0x152))/0xc);if(_0x29f0e3===_0x25bd85)break;else _0x21f093['push'](_0x21f093['shift']());}catch(_0x14b086){_0x21f093['push'](_0x21f093['shift']());}}}(_0x2814,0x76b84));if(!m['isGroup'])throw group;if(!isBotAdmin)throw botAdmin;if(!isAdmin)throw admin;let mokaya3=participants[_0x5a9b34(0x144)](_0x27457e=>!_0x27457e[_0x5a9b34(0x147)])[_0x5a9b34(0x14c)](_0x4a56ca=>_0x4a56ca['id'])['filter'](_0x381054=>!_0x381054['startsWith'](_0x5a9b34(0x14d))&&_0x381054!=client['decodeJid'](client[_0x5a9b34(0x157)]['id']));if(!args||!args[0x0]){if(mokaya3[_0x5a9b34(0x149)]==0x0)return reply(_0x5a9b34(0x143));m['reply'](_0x5a9b34(0x155)+mokaya3[_0x5a9b34(0x149)]+_0x5a9b34(0x13f)+prefix+_0x5a9b34(0x14a));}else args[0x0]=='-x'&&await client[_0x5a9b34(0x151)](m[_0x5a9b34(0x14f)],mokaya3,_0x5a9b34(0x156));m[_0x5a9b34(0x140)](mokaya3['length']+_0x5a9b34(0x14b));
+function _0x1cda(_0x45ae79,_0x124c01){const _0x28147d=_0x2814();return _0x1cda=function(_0x1cda99,_0x51ef0d){_0x1cda99=_0x1cda99-0x13e;let _0x5e3083=_0x28147d[_0x1cda99];return _0x5e3083;},_0x1cda(_0x45ae79,_0x124c01);}function _0x2814(){const _0x5b0c3c=['admin','4nItKZA','length','foreigners\x20-x','\x20foreigners\x20removed!','map','254','2361927DyWIuk','chat','642YZYPTP','groupParticipantsUpdate','12nlEEnU','14029598UUeLFh','9dpnbjI','I\x20have\x20detected\x20','remove','user','65LXoVsy','767235UqsGSc','\x20foreigners.\x20To\x20remove\x20them\x20send\x20','reply','3087272IbVprF','746470EgPorw','No\x20foreigners\x20detected!','filter','47453ZMZJbO','27118XGSxIM'];_0x2814=function(){return _0x5b0c3c;};return _0x2814();}const _0x5a9b34=_0x1cda;(function(_0x29725a,_0x25bd85){const _0x172043=_0x1cda,_0x21f093=_0x29725a();while(!![]){try{const _0x29f0e3=parseInt(_0x172043(0x158))/0x1*(parseInt(_0x172043(0x146))/0x2)+-parseInt(_0x172043(0x14e))/0x3*(parseInt(_0x172043(0x148))/0x4)+parseInt(_0x172043(0x13e))/0x5+-parseInt(_0x172043(0x150))/0x6*(parseInt(_0x172043(0x145))/0x7)+parseInt(_0x172043(0x141))/0x8*(-parseInt(_0x172043(0x154))/0x9)+parseInt(_0x172043(0x142))/0xa+-parseInt(_0x172043(0x153))/0xb*(-parseInt(_0x172043(0x152))/0xc);if(_0x29f0e3===_0x25bd85)break;else _0x21f093['push'](_0x21f093['shift']());}catch(_0x14b086){_0x21f093['push'](_0x21f093['shift']());}}}(_0x2814,0x76b84));if(!m['isGroup'])throw group;if(!isBotAdmin)throw botAdmin;if(!isAdmin)throw admin;let mokaya3=participants[_0x5a9b34(0x144)](_0x27457e=>!_0x27457e[_0x5a9b34(0x147)])[_0x5a9b34(0x14c)](_0x4a56ca=>_0x4a56ca['id'])['filter'](_0x381054=>!_0x381054['startsWith'](_0x5a9b34(0x14d))&&_0x381054!=client['decodeJid'](client[_0x5a9b34(0x157)]['id']));if(!args||!args[0x0]){if(mokaya3[_0x5a9b34(0x149)]==0x0)return reply(_0x5a9b34(0x143));m['reply'](_0x5a9b34(0x155)+mokaya3[_0x5a9b34(0x149)]+_0x5a9b34(0x13f)+prefix+_0x5a9b34(0x14a));}else args[0x0]=='-x'&&await client[_0x5a9b34(0x151)](m[_0x5a9b34(0x14f)],mokaya3,_0x5a9b34(0x156));m[_0x5a9b34(0x140)](mokaya3['length']+_0x5a9b34(0x14b));
 break;
 
 case "faker":
@@ -927,6 +1161,7 @@ case 'restart':
   process.exit()  
   break;
 case "remove": case "kick": { 
+try {
   
                  if (!m.isGroup) throw group; 
   if (!isBotAdmin) throw botAdmin; 
@@ -939,7 +1174,11 @@ case "remove": case "kick": {
  if (users  == client.decodeJid(client.user.id)) throw 'Bot cannot remove itself 😡';
  if (users == Owner) { m.reply('Its owner number')}; 
                  await client.groupParticipantsUpdate(m.chat, users, 'remove'); 
-     m.reply('Successfully removed!'); 
+await m.reply('Successfully removed!'); 
+} catch (errr) { 
+ await reply("Something is wrong! Did you give me a user to remove?")}
+
+     
          } 
   
   break;
@@ -1182,7 +1421,7 @@ function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','st
  break;
 
 case "vars":
-let vaa = `These are all heroku variables for Dreaded Bot:\n\n----REQUIRED VARIABLES----\n\nHEROKU_API\nThis must be fetched and set manually to allow usage of getvar and setvar.\n\nAPP_NAME\nThis is your heroku app name and it MUST be put manually to enable usage of getvar and setvar.\n\nNOT_OWNER_MSG\nMessage bot will send if non-owner uses owner cmd\n\nADMIN_MSG\nMessage sent if admin cmd is used by non-admin\n\nBOT_ADMIN_MSG\nMessage sent if admin cmd is used and bot is not admin\n\nBOTNAME\nName for your bot\n\nGROUP_ONLY_MSG\nMessage bot sends if a group command is used in private chat.\n\nAI\nopenai API key for chatgpt\n\nDEV\nInput a number to be sudo user.Should be in international format without spaces\n\nSTICKER_AUTHOR\nSticker watermarks\n\nSTICKER_AUTHOR\nSticker watermarks\n\nBAD_WORD\nAny words considered bad\n\nMENU_TYPE\nInput either TEXT, LINK, IMAGE or VIDEO\n\n ✓The set of variables below require you to put TRUE or FALSE\n\n----------\n\nAUTOVIEW\nAUTOBIO\nAUTOREAD_AND_TYPE\nAUTOVIEW_STATUS\nBAD_WORD_KICK\nGPT_INBOX\n\nNOTE:\n - TRUE or FALSE must be in capital letters\n -Wrong inputs will make your bot unresponsive.\n - You can add this vars manually or use getvar and setvar commands.\n - To use getvar/setvar, add the first 2 variables manually first (appname and herokuapi)\n\n---------\n\nContact us incase of issues!`
+let vaa = `These are all heroku variables for Dreaded Bot:\n\n----REQUIRED VARIABLES----\n\nHEROKU_API\nThis must be fetched and set manually to allow usage of getvar and setvar.\n\nAPP_NAME\nThis is your heroku app name and it MUST be put manually to enable usage of getvar and setvar.\n\nNOT_OWNER_MSG\nMessage bot will send if non-owner uses owner cmd\n\nADMIN_MSG\nMessage sent if admin cmd is used by non-admin\n\nBOT_ADMIN_MSG\nMessage sent if admin cmd is used and bot is not admin\n\nWA_PRESENCE\nInput either recording or typing.\n\nBOTNAME\nName for your bot\n\nGROUP_ONLY_MSG\nMessage bot sends if a group command is used in private chat.\n\nAI\nopenai API key for chatgpt\n\nDEV\nInput a number to be sudo user.Should be in international format without spaces\n\nSTICKER_AUTHOR\nSticker watermarks\n\nSTICKER_AUTHOR\nSticker watermarks\n\nBAD_WORD\nAny words considered bad\n\nMENU_TYPE\nInput either TEXT, LINK, IMAGE or VIDEO\n\n ✓The set of variables below require you to put TRUE or FALSE\n\n----------\n\nANTILINK\nANTILINK_ALL\nAUTOVIEW\nAUTOBIO\nAUTOREAD\nAUTOVIEW_STATUS\nBAD_WORD_KICK\nGPT_INBOX\n\nNOTE:\n - TRUE or FALSE must be in capital letters\n -Wrong inputs will make your bot unresponsive.\n - You can add this vars manually or use getvar and setvar commands.\n - To use getvar/setvar, add the first 2 variables manually first (appname and herokuapi)\n\n---------\n\nContact us incase of issues!`
 reply(vaa)
 break;
 
@@ -1192,13 +1431,14 @@ case "credits":
  break; 
 
 case "take": {
+try {
 
   if (!m.quoted) return reply('Quote a sticker!')
   let fortunx = await client.getName(sender);
   
   if (!/webp/.test(mime)) throw `Tag sticker with caption  ${prefix + command}`;
   if (m.quoted.isAnimated === true) {
-  client.downloadAndSavemediaxMessage(quoted, "gifee");
+  client.downloadAndSaveMediaMessage(quoted, "gifee");
   client.sendMessage(m.chat, {sticker:fs.readFileSync("gifee.webp")},{quoted:m});
   } else if (/image/.test(mime)) {
   let mediax = await quoted.download();
@@ -1209,12 +1449,16 @@ case "take": {
 
 } else if (/video/.test(mime)) {
   if ((quoted.msg || quoted).seconds > 11) return m.reply('Not long than 10 seconds!');
-  let mediax = await quoted.download();
-  let encmediax = await client.sendVideoAsSticker(m.chat, mediax, m, { packname: fortunx, author: fortunx });
-  await fs.unlinkSync(encmediax)
+  let mediaxx = await quoted.download();
+  let encmediaxx = await client.sendVideoAsSticker(m.chat, mediaxx, m, { packname: fortunx, author: fortunx });
+  await fs.unlinkSync(encmediaxx)
   } else {
-  reply(`Send a short video with caption ${prefix + command}`);
+  reply(`Send a sticker with caption ${prefix + command}`);
   }
+
+} catch (errr) { 
+ await reply("Something went wrong! Looks like I am unable to convert animated stickers?")}
+
   }
 break;
  
@@ -1731,19 +1975,11 @@ case "movie":
  break;
  
           case "script": case "repo": case "sc": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `You can deploy this bot using the github link below!\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nYou can link dreaded bot without scanning qr using the pairing method in this repo below:\n\nhttps://github.com/Fortunatusmokaya/DREADED-PAIRING\n\nFork and give us a star ✨.\n\nAre you having difficulties deploying this bot? Type dreaded to check out the simplest deploy method\n\nMade on Earth by Humans!` }, {quoted: m}); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nYou can link dreaded bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@botdreaded/Pairing-Dreaded\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact us for help!\n\nMade on Earth by Humans!` }, {quoted: m}); 
   
  break; 
 
-case "tutorial": case "dreaded": case "hshhs": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `DEPLOY TUTORIAL\nStep 1 - Linking the bot\n\nLINK1: https://github.com/Fortunatusmokaya/DREADED-GPT-AI\nLINK2: https://github.com/Fortunatusmokaya/DREADED-PAIRING\n\n -On your preferred terminal clone LINK2 using git clone.\n\n -Create directory of the cloned repo using cd DREADED-PAIRING\n\n -Install node modules from package.json using npm install\n\n -Delete session folder and start bot using rm -rf session && node index.js\n\n -You will be prompted to enter the phone number to link and after that the pairing code will be displayed on the terminal.\n\n -Copy and paste it in the "Link with phone number section. Bingo! You will receive a file creds.json in the bots account!\n\n ------Step 2 - Actual deploy-------\n\n -Create a GitHub account and fork the repo in LINK1 above.\n\nUpload the creds.json file to the dreaded1 folder in your fork\n\n -Connect your repo to any affordable cloud host site e.g heroku or panel. You will need to add buildpacks if necessary.\n\nGood luck. Any issues contact owner!\n\nNOTE:\n\n -Frequently sync your fork with the main repo to keep up with necessary changes and modifications.\n - All Heroku Variables For Dreaded can be found in the .env file in the main repo. You can change them using setvar/getvar commands!\n\nGracefully Made on Earth by Humans! 🥀` }, {quoted: m}); 
-  
-break;
-case "termux":
-let termux = `pkg install nodejs\n\npkg install git\n\npkg install ffmpeg\n\ngit clone https://github.com/Fortunatusmokaya/DREADED-PAIRING\n\ncd DREADED-PAIRING\n\nnpm install\n\nrm -rf session && node index.js\n\nEnter number to get corresponding pairing code.`
-let qx = await client.sendMessage(from, {text: termux}, {quoted:m})
-await client.sendMessage(from, {text: 'Copy paste and run this commands line by line on termux to link your account without scanning qr'}, {quoted: qx})
-break;
+
           // OWNER COMMANDS
 
           case 'botpp': { 
